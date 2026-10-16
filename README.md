@@ -4,6 +4,12 @@
 
 Please consider following this project's author, [Jon Schlinkert](https://github.com/jonschlinkert), and consider starring the project to show your :heart: and support.
 
+## Downstream certification patch
+
+This downstream fork carries the nesting-depth security fix from [upstream PR #72](https://github.com/micromatch/braces/pull/72), based on commit `28d440b5dd449dbf1fe6f3506cf94ecca4d02660`. The package version is `3.0.4-lbp.1` so dependency audits can distinguish this patched build from upstream `3.0.3`.
+
+This is a temporary downstream maintenance fork. Rebase onto an official patched `braces` release and remove the override when one is published.
+
 ## Install
 
 Install with [npm](https://www.npmjs.com/):
